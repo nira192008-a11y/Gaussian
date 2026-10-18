@@ -38,9 +38,9 @@ x=np.zeros(n)
 
 for i in range (n):
    
-    for j in range(n+1):
+ ###   for j in range(n+1):
         
-        a[i][j]=float(input())
+  ###      a[i][j]=float(input())
 
 for i in range(n):
     if a[i][i]==0.0:
